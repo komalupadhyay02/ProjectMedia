@@ -1,0 +1,97 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            background-color: #4b5c9e;
+        }
+        
+        .navbar {
+            background-color: #A8D0E6;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: -10px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .column {
+            margin-left: 125px;
+            float: left;
+            padding: 1em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .card i {
+            color: #ffffff;
+            padding: 100px 50px 75px 50px;
+        }
+        
+        .card h1 {
+            color: #ffffff;
+            padding: 0px 40px 100px 40px;
+        }
+        
+        .card {
+            width: 300px;
+            height: 375px;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            background-color: #374785;
+            background-repeat: no-repeat;
+            background-position: 0 0.62em;
+            box-shadow: 0 0 2opx 10px rgba(25, 42, 86, 0.8);
+            position: relative;
+            justify-content: center;
+        }
+        
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            color: black;
+            background: linear-gradient(135deg, #22a7f0, #ff6ac1);
+            color: white;
+            animation: glowingAnimation 2s ease-in-out infinite;
+            opacity: 0.1;
+            box-shadow: 0 0 10px #22a7f0, 0 0 20px #22a7f0, 0 0 30px #22a7f0, 0 0 40px #22a7f0;
+        }
+        
+        @keyframes glowingAnimation {
+            0% {
+                transform: translate(-50%, -50%) scale(0.8);
+                opacity: 0.8;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.2);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(0.8);
+                opacity: 0.8;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }

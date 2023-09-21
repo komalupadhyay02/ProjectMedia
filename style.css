@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    
+    
+ }
+.topbar{
+    display: flex;
+        justify-content:  space-between;
+        /* background-color: grey; */
+        padding: 10px 20px;
+        
+    }
+    
+    .topbar .navbar{
+        display:flex;
+        align-items: center;
+    }
+    .topbar .navbar ul{
+        list-style: none;
+    }
+    .topbar .navbar ul li{
+        display: inline-block;
+        margin: 0px 8px;
+        width: 90px;
+        
+    }
+    .topbar .navbar ul li a{
+        color:#333;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .topbar .navbar ul li a:hover,
+    .topbar .navbar ul li a:active,
+    .topbar .navbar ul li a:focus{
+        color: #333333;
+        font-size: 15px;   
+    }
+    .topbar .navbar ul li.divider{
+        color: black;
+        font-size: 16px;
+        margin: 0px 20px;
+        width:auto;
+    }
+    .topbar .navbar button{
+        background-color: black;
+        color:#ffffff;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 14px 30px;
+        border: 0px;
+        border-radius: 40px;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: -13px;
+    }
+    .topbar .navbar button:hover,
+    .topbar .navbar button:active,
+    .topbar .navbar button:focus{
+        background-color:#A8D0E6;
+        color: black;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        
+        background: linear-gradient(-115deg, #A8D0E6 15%, #ffff 70%)
+
+        /* background: linear-gradient(to bottom right,  transparent 50%, #A8D0E6 50%); */
+    }
+
+    /* Add your content styles below */
+    .content {
+        padding: 20px;
+    }
+    .logo {
+        width: 170px;
+        height: auto; 
+        margin-right:550px; 
+    }
+    
+    .tilted-image-container {
+        width:38%; 
+        height: 50%; 
+        overflow: hidden; 
+        transform: rotate(-15deg); 
+        border-radius: 8%;
+        position: absolute;
+        translate: 0px 120px;
+       
+        
+       
+    }
+    .head{
+        float: right;
+        position: relative;
+        top:230px;
+        
+        right: 100px;
+    }
+    .head p{
+        align-content: center;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    
+    .tilted-image {
+        width: 100%; 
+        height: auto; 
+        flex: 1;
+    padding-right: 20px;
+   }
+   .project{
+    position: relative;
+    left: 600px;
+    top: 200px;
+    
+    
+   }
+   .project h2{
+    
+    translate: -40px  400px;
+   }
+   .project p{
+    position: relative;
+    right: 600px;
+    
+
+    translate: 200px 400px;
+   }
+  
+  
+   .project p{
+    font-size: 20px;
+   }
+
+   #animation{
+    position: relative;
+    translate: -500px 190px;
+    left: 850px;
+    
+}
+.a1{
+    border-radius: 10%;
+    width: 250px;
+    height: 200px;
+    background: #0b2634;
+    animation: anim 3s infinite alternate-reverse;
+    
+    padding:15px ;
+}   
+.a2{
+    background:#0b2634;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -25px;
+    border-radius: 10%;
+    padding:15px ;
+    left: 100px;
+    animation: anim 3.5s infinite alternate-reverse;
+}
+.a3{
+    background:#0b2634;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: -50px;
+    padding:15px ;
+    
+    left: 200px;
+    border-radius: 10%;
+    animation: anim 3.7s infinite alternate-reverse;
+}
+
+@keyframes anim{
+    0%{
+        transform:0%;
+    }
+    50%{
+        transform: translateY(30px)
+
+    }
+    100%{
+        transform: translatey(30px);
+    }
+}  
+.reccon{
+    translate: 0 70px;
+}
+.recruitment{
+    translate:0px 500px;
+    position: relative;
+    left: 50px;
+}
+
+#recinfo{
+    position: relative;
+        left: 40px;
+        top: 40px;
+    font-weight: 300;
+}
+.recimg{
+    position: relative;
+    left: 100px;
+}
+   
+   .contest{
+        border-left: 3px solid antiquewhite;
+        translate:0px 250px;
+        position: relative;
+        left: 700px;
+    }
+    .conimg{
+        position: relative;
+        left: 50px;
+        bottom: 40px;
+    }
+    .contest h2{
+        position: relative;
+        left: 50px;
+    }
+    .contest p{
+        position: relative;
+        left: 50px;
+    }
+   .contact{
+    
+    position: relative;
+    left: 50px;
+    top: 400px;
+   }
+   .link3{
+      font-size: 20px;
+   }
+ 
+  .rec1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+  }
+  .rec2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    border-radius: 50%;
+  }
+  .rec3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 80px;
+    top: 5px;
+    border-radius: 50%;
+  }
+  

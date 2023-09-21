@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signUpStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="post">
+            <h2> Registration</h2>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Enter a Username" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email </label>
+                    <input type="email" placeholder="Enter Official Email Address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phoneNo">Phone Number</label>
+                    <input type="number" placeholder="Enter Phone Number" pattern="[0-9]{10}" name="phoneNo" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required placeholder="Enter new Password">
+                </div>
+                <div class="input-box">
+                    <label for="confirm-password">Confirm Password </label>
+                    <input type="password" placeholder="Confirm Your Password" name="confirmPassword" required>
+                </div>
+                <span class="role">Role</span>
+                <div class="role-category">
+                    <input type="radio">
+                    <label for="student">Student</label>
+                    <input type="radio">
+                    <label for="faculty">Faculty</label>
+                    <input type="radio">
+                    <label for="recruiter">Recruiter</label>
+                </div>
+                <span class="gender-title"> Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="button">
+                <button>Register Me</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
