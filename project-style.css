@@ -1,0 +1,61 @@
+*{
+    font-family: 'Nunito', sans-serif;
+   
+}
+body{
+    background:linear-gradient(white,#a8d0e6) ;
+}
+img {
+
+    margin:0px;
+    padding:0px;
+    width:10%;
+}
+h1 {
+    margin-left:40px;
+    color:#f85656;
+    font-size:32px;
+}
+.project img {
+    width:450px;
+    height:250px;
+    padding: 40px;
+    box-shadow: 7px 7px  15px  #24305e;
+    margin-left:80px;
+    margin-top: 10px;
+    display:inline-flex;
+
+    
+
+}
+
+.btn {
+    background-color:#f66666;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:20px;
+    padding: 10px;
+    margin-left: 116px;
+    margin-top: 40px;
+    cursor:pointer;
+
+}
+
+
+
+.content {
+    float:right;
+    text-align: left;
+    transform:translate(-20%,-110%);
+    
+}
+
+.content h2{
+    font-size: 28px;
+}
+.student {
+    float:right;
+}
