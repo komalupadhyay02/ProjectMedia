@@ -4,48 +4,31 @@
     <meta charset="UTF-8"/>
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <link href="admin-css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="user-panel-css/bootstrap.min.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
-    <link href="admin-css/dataTables.bootstrap5.min.css" rel="stylesheet"/>
+    <link href="user-panel-css/dataTables.bootstrap5.min.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Nunito&family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f867f983a3.js" crossorigin="anonymous"></script>
-    <link href="admin-css/admin-style.css" rel="stylesheet"/>
+    <link href="user-panel-css/admin-style.css" rel="stylesheet"/>
     <title>Welcome</title>
 </head>
 <body>
 <!-- top navigation bar -->
 <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container-fluid">
-        <button
-                aria-controls="offcanvasExample"
-                class="navbar-toggler"
-                data-bs-target="#sidebar"
-                data-bs-toggle="offcanvas"
-                type="button">
+        <button aria-controls="offcanvasExample" class="navbar-toggler" data-bs-target="#sidebar" data-bs-toggle="offcanvas" type="button">
             <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
         </button>
         <a class="navbar-brand me-auto ms-lg-0 ms-3 fw-bold" href="#">Hi Shampoo !</a>
-        <button
-                aria-controls="topNavBar"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                class="navbar-toggler"
-                data-bs-target="#topNavBar"
-                data-bs-toggle="collapse"
-                type="button">
+        <button aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#topNavBar" data-bs-toggle="collapse" type="button">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="topNavBar">
             <form class="d-flex ms-auto my-3 my-lg-0">
                 <div class="input-group">
-                    <input
-                            aria-label="Search"
-                            class="form-control"
-                            placeholder="Search"
-                            type="search"
-                    />
+                    <input aria-label="Search" class="form-control" placeholder="Search" type="search"/>
                     <button class="btn btn-secondary" type="submit">
                         <i class="bi bi-search"></i>
                     </button>
@@ -53,13 +36,7 @@
             </form>
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                    <a
-                            aria-expanded="false"
-                            class="nav-link dropdown-toggle ms-2"
-                            data-bs-toggle="dropdown"
-                            href="#"
-                            role="button"
-                    >
+                    <a aria-expanded="false" class="nav-link dropdown-toggle ms-2" data-bs-toggle="dropdown" href="#" role="button">
                         <i class="bi bi-person-fill"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
@@ -106,7 +83,6 @@
                 <li>
                         <span class="me-2"></span>
                         <span><a class="nav-link px-3 sidebar-link" href="form2.html"><i class="fa-solid fa-cloud-arrow-up"></i>&nbsp;&nbsp;Upload Project</a></span>
-                    </a>
                 </li>
                 <li>
                     <a class="nav-link px-3" href="#">
@@ -179,6 +155,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section>
         <h2>Ongoing Projects</h2>
             <hr>
@@ -190,7 +167,7 @@
                         Project 1
                     </div>
                     <div class="card-body">
-                        <img class="card-img" src="images/tindog.png" alt="">
+                        <a href="https://maulik-pandey.github.io/TinDog/"><img class="card-img" src="images/tindog.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -201,12 +178,11 @@
                         Project 2
                     </div>
                     <div class="card-body">
-                        <img class="card-img" src="images/inhouse.png" alt="">
+                        <a href="https://maulik-pandey.github.io/InHouseMapNav/"><img class="card-img" src="images/inhouse.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </main>
 <script src="./js/bootstrap.bundle.min.js"></script>
