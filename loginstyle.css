@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
 body {
     display: grid;
     place-content: center;
@@ -14,14 +21,14 @@ body {
 .wrap .box {
     position: relative;
     width: 400px;
-    height: 480px;
+    height: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #F76C6C, #F8E9A1);
     border-radius: 18px;
-    box-shadow: 0 9px 0 #111113, 0px 2.9px 3.3px rgba(0, 0, 0, 0.068), 0px 9.1px 9px rgba(0, 0, 0, 0.084), 0px 23px 21.7px rgba(0, 0, 0, 0.099), 0px 72px 72px rgba(0, 0, 0, 0.16);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 9px 0 #525253, 0px 2.9px 3.3px rgba(0, 0, 0, 0.068), 0px 9.1px 9px rgba(0, 0, 0, 0.084), 0px 23px 21.7px rgba(0, 0, 0, 0.099), 0px 72px 72px rgba(0, 0, 0, 0.16);
+    border-bottom: 1px solid rgba(75, 72, 72, 0.18);
 }
 
 .content {
@@ -89,17 +96,28 @@ body {
     font-size: 1em;
 }
 
-.content form .input-box span {
+
+/* .content form .input-box span {
     position: absolute;
     left: 0;
     padding: 0.625em 0 0.925em 1.5em;
     pointer-events: none;
     opacity: 1;
     transition: 300ms;
-}
+} */
 
 span {
     margin-right: auto;
+}
+
+.content span:nth-of-type(3) {
+    margin-top: 15px;
+    /* Add margin at the top to create spacing */
+}
+
+.user-title {
+    margin-top: 7px;
+    /* Add margin at the top to create spacing */
 }
 
 
@@ -136,9 +154,29 @@ span {
     font-weight: 600;
     padding: 0.625em;
     cursor: pointer;
+    margin-top: 15px;
+    /* Add margin at the top to create spacing */
+    bottom: 0;
 }
 
 .content form .input-box input[type="submit"]:hover {
     background: transparent;
     color: #fff;
+}
+
+#user {
+    position: relative;
+    width: 100%;
+    margin-top: 10PX;
+    right: 12px;
+    width: 340px;
+    height: 40px;
+    font-size: medium;
+    text-align: center;
+    background: transparent;
+    /* font-size: 1em; */
+    padding: 0.625em 0.625em 0.625em 1.5em;
+    box-shadow: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
 }
