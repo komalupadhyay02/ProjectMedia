@@ -3,11 +3,22 @@ body,
 button {
   font-family: 'Nunito', sans-serif;
 }
+.navigation{
+  color:white;
+  background: #24305E;
+}
 h2{
   margin: 10px 0;
 }
 #completed-project{
   margin: 10px 0;
+}
+.project-details{
+  text-decoration: none;
+  color: white;
+}
+.project-details:hover{
+  color: white;
 }
 :root {
   --offcanvas-width: 270px;
