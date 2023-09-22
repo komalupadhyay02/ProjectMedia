@@ -68,8 +68,8 @@
         margin: 0;
         padding: 0;
         height: 100vh;
-        
-        background: linear-gradient(-115deg, #A8D0E6 15%, #ffff 70%)
+        /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+        background: linear-gradient(-115deg, #A8D0E6 , #ffff )
 
         /* background: linear-gradient(to bottom right,  transparent 50%, #A8D0E6 50%); */
     }
@@ -105,7 +105,8 @@
     }
     .head p{
         align-content: center;
-        line-height: 30px;
+        line-height: 30px;top: 30px;
+
         font-size: 20px;
     }
     
@@ -117,32 +118,25 @@
    }
    .project{
     position: relative;
-    left: 600px;
-    top: 200px;
+    top: 600px;
+    padding: 100px ;
     
     
    }
-   .project h2{
+   .project h1{
     
-    translate: -40px  400px;
-   }
-   .project p{
     position: relative;
-    right: 600px;
-    
-
-    translate: 200px 400px;
+    bottom: 20px;
+    left: 230px;
    }
   
   
-   .project p{
-    font-size: 20px;
-   }
-
+   
    #animation{
     position: relative;
-    translate: -500px 190px;
-    left: 850px;
+    float: right;
+    right: 180px;
+    bottom:170px;
     
 }
 .a1{
@@ -191,53 +185,40 @@
     }
 }  
 .reccon{
-    translate: 0 70px;
-}
-.recruitment{
-    translate:0px 500px;
     position: relative;
-    left: 50px;
+    top:700px;
+    padding: 100px;
 }
 
+
 #recinfo{
-    position: relative;
-        left: 40px;
-        top: 40px;
+
     font-weight: 300;
 }
-.recimg{
-    position: relative;
-    left: 100px;
+#recimg{
+  position: relative;
+  bottom: 30px;
 }
    
    .contest{
         border-left: 3px solid antiquewhite;
-        translate:0px 250px;
+        padding-left:50px ;
+        float: right;
         position: relative;
-        left: 700px;
+        right: 8px;
+        bottom: 250px;
     }
     .conimg{
         position: relative;
-        left: 50px;
-        bottom: 40px;
+       bottom: 20px;
     }
-    .contest h2{
-        position: relative;
-        left: 50px;
-    }
-    .contest p{
-        position: relative;
-        left: 50px;
-    }
+    
    .contact{
     
     position: relative;
-    left: 50px;
-    top: 400px;
+    top: 180px;
    }
-   .link3{
-      font-size: 20px;
-   }
+   
  
   .rec1{
     height: 100px;
@@ -261,4 +242,5 @@
     top: 5px;
     border-radius: 50%;
   }
+  
   
