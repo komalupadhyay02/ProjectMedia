@@ -82,7 +82,7 @@
                 </li>
                 <li>
                         <span class="me-2"></span>
-                        <span><a class="nav-link px-3 sidebar-link" href="form2.html"><i class="fa-solid fa-cloud-arrow-up"></i>&nbsp;&nbsp;Upload Project</a></span>
+                        <span><a class="nav-link px-3 sidebar-link" href="form2.php"><i class="fa-solid fa-cloud-arrow-up"></i>&nbsp;&nbsp;Upload Project</a></span>
                 </li>
                 <li>
                     <a class="nav-link px-3" href="#">
